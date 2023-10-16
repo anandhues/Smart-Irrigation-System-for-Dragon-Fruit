@@ -1,1 +1,2 @@
 # Smart-Irrigation-System-for-Dragon-Fruit
+This system uses temperature, soil moisture and humidity data to predict the amount of water to be given to the individual crops of a dragon fruit plantation using a trained machine learning model which uses the Random Forest algorithm. The data used to predict is collected real-time by connecting soil moisture and temperature sensors to an arduino uno board which pushes this data to an sql table. The data from this table is then retrieved using 
